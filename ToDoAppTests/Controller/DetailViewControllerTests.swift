@@ -76,4 +76,15 @@ class DetailViewControllerTests: XCTestCase {
         setupTaskAndAppearanceTransition()
         XCTAssertEqual(sut.locationLabel.text, "Baz")
     }
+    
+    func testSettingTaskSetsDateLabel() {
+        setupTaskAndAppearanceTransition()
+        XCTAssertEqual(sut.dateLabel.text, "01.01.20")
+    }
+    
+    func testSettingTaskSetsMapView() {
+        setupTaskAndAppearanceTransition()
+        XCTAssertEqual(sut.mapView.centerCoordinate.latitude, 37.2575874, accuracy: 0.001)
+        XCTAssertEqual(sut.mapView.centerCoordinate.longitude, -6.9484945, accuracy: 0.001)
+    }
 }
