@@ -25,7 +25,24 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="awW-3s-bSV" id="gZX-b3-md3">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tax-ZL-aTe">
+                                                    <rect key="frame" x="20" y="11" width="374" height="21.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="tax-ZL-aTe" firstAttribute="leading" secondItem="gZX-b3-md3" secondAttribute="leadingMargin" id="29X-H2-dsQ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="tax-ZL-aTe" secondAttribute="trailing" id="5P4-98-1rL"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="tax-ZL-aTe" secondAttribute="bottom" id="QGI-lZ-3B1"/>
+                                                <constraint firstItem="tax-ZL-aTe" firstAttribute="top" secondItem="gZX-b3-md3" secondAttribute="topMargin" id="Td8-Uz-S6W"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="tax-ZL-aTe" id="9jf-nC-wN4"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
