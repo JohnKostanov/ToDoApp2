@@ -10,6 +10,8 @@
 		522A383E23B8A5010026CF17 /* TaskManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A383D23B8A5010026CF17 /* TaskManagerTests.swift */; };
 		522A384023B8A59D0026CF17 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A383F23B8A59D0026CF17 /* TaskManager.swift */; };
 		522AF40D23BB77EA001AEB22 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AF40C23BB77EA001AEB22 /* TaskCell.swift */; };
+		52459E2923BD0039005C70DB /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52459E2823BD0039005C70DB /* DetailViewControllerTests.swift */; };
+		52459E2D23BD01CA005C70DB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52459E2C23BD01CA005C70DB /* DetailViewController.swift */; };
 		5257231A23B8D60200ACE8CA /* TaskListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257231923B8D60200ACE8CA /* TaskListViewControllerTests.swift */; };
 		525C853E23BCCE5600641E71 /* TaskCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C853D23BCCE5600641E71 /* TaskCellTests.swift */; };
 		5270CDD623B9F7AB00624E86 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270CDD523B9F7AB00624E86 /* DataProvider.swift */; };
@@ -33,6 +35,8 @@
 		522A383D23B8A5010026CF17 /* TaskManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerTests.swift; sourceTree = "<group>"; };
 		522A383F23B8A59D0026CF17 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		522AF40C23BB77EA001AEB22 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskCell.swift; path = ToDoAppTests/Controller/TaskCell.swift; sourceTree = SOURCE_ROOT; };
+		52459E2823BD0039005C70DB /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
+		52459E2C23BD01CA005C70DB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5257231923B8D60200ACE8CA /* TaskListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewControllerTests.swift; sourceTree = "<group>"; };
 		525C853D23BCCE5600641E71 /* TaskCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellTests.swift; sourceTree = "<group>"; };
 		5270CDD523B9F7AB00624E86 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 			children = (
 				5257231923B8D60200ACE8CA /* TaskListViewControllerTests.swift */,
 				5270CDD723B9FFA900624E86 /* DataProviderTests.swift */,
+				52459E2823BD0039005C70DB /* DetailViewControllerTests.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 			children = (
 				52870F4E23B77FA200856CD8 /* TaskListViewController.swift */,
 				5270CDD523B9F7AB00624E86 /* DataProvider.swift */,
+				52459E2C23BD01CA005C70DB /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -354,6 +360,7 @@
 				522A383E23B8A5010026CF17 /* TaskManagerTests.swift in Sources */,
 				5257231A23B8D60200ACE8CA /* TaskListViewControllerTests.swift in Sources */,
 				52870F6223B77FA400856CD8 /* ToDoAppTests.swift in Sources */,
+				52459E2923BD0039005C70DB /* DetailViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52459E2D23BD01CA005C70DB /* DetailViewController.swift in Sources */,
 				522A384023B8A59D0026CF17 /* TaskManager.swift in Sources */,
 				52870F9323B78F3100856CD8 /* Task.swift in Sources */,
 				52870F8223B7840100856CD8 /* TaskListViewController.swift in Sources */,
