@@ -25,14 +25,15 @@ class TaskCell: UITableViewCell {
         if done {
             let attributedString = NSAttributedString(string: task.title, attributes: [NSAttributedString.Key.strikethroughStyle : NSUnderlineStyle.single.rawValue])
             titleLabel.attributedText = attributedString
+            dateLabel = nil
+            locationLabel = nil
         } else {
             if let date = task.date {
                 let dateString = dateFormatter.string(from: date)
                 dateLabel.text = dateString
             }
-            
-            self.titleLabel.text = task.title
-            self.locationLabel.text = task.location?.name
+            titleLabel.text = task.title
+            locationLabel.text = task.location?.name
         }
         
         
