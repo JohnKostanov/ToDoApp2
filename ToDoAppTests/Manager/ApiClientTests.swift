@@ -39,9 +39,19 @@ class ApiClientTests: XCTestCase {
         XCTAssertEqual(mockURLSession.urlComponets?.path, "/login")
     }
     
-    func testLoginUsesExpectedQuery() {
+    func testLoginUsesExpectedQueryParameters() {
         userLogin()
-        XCTAssertEqual(mockURLSession.urlComponets?.percentEncodedQuery, "name=name&password=%25qwerty")
+        
+        guard let queryItems = mockURLSession.urlComponets?.queryItems else {
+            XCTFail()
+            return
+        }
+        
+        let urlQueryItemName = URLQueryItem(name: "name", value: "name")
+        let urlQueryItemPassword = URLQueryItem(name: "password", value: "%qwerty")
+        
+        XCTAssertTrue(queryItems.contains(urlQueryItemName))
+        XCTAssertTrue(queryItems.contains(urlQueryItemPassword))
     }
 }
 
