@@ -26,7 +26,7 @@ class ApiClientTests: XCTestCase {
 
     func userLogin() {
         let completionHandler = { (token: String?, error: Error?) in }
-        sut.login(withName: "name", password: "qwerty", completionHandler: completionHandler)
+        sut.login(withName: "name", password: "%qwerty", completionHandler: completionHandler)
     }
     
     func testLoginUsesCorrectHost() {
@@ -37,6 +37,11 @@ class ApiClientTests: XCTestCase {
     func testLoginUsesCorrectPath() {
         userLogin()
         XCTAssertEqual(mockURLSession.urlComponets?.path, "/login")
+    }
+    
+    func testLoginUsesExpectedQuery() {
+        userLogin()
+        XCTAssertEqual(mockURLSession.urlComponets?.percentEncodedQuery, "name=name&password=%25qwerty")
     }
 }
 
