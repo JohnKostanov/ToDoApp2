@@ -18,6 +18,8 @@
 		525C853E23BCCE5600641E71 /* TaskCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C853D23BCCE5600641E71 /* TaskCellTests.swift */; };
 		5270CDD623B9F7AB00624E86 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270CDD523B9F7AB00624E86 /* DataProvider.swift */; };
 		5270CDD823B9FFA900624E86 /* DataProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270CDD723B9FFA900624E86 /* DataProviderTests.swift */; };
+		527B2C8523C0A5E90002BCAE /* ApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B2C8423C0A5E90002BCAE /* ApiClientTests.swift */; };
+		527B2C8723C0A9270002BCAE /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B2C8623C0A9270002BCAE /* APIClient.swift */; };
 		52870F6223B77FA400856CD8 /* ToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52870F6123B77FA400856CD8 /* ToDoAppTests.swift */; };
 		52870F6D23B77FA400856CD8 /* ToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52870F6C23B77FA400856CD8 /* ToDoAppUITests.swift */; };
 		52870F8223B7840100856CD8 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52870F4E23B77FA200856CD8 /* TaskListViewController.swift */; };
@@ -45,6 +47,8 @@
 		525C853D23BCCE5600641E71 /* TaskCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellTests.swift; sourceTree = "<group>"; };
 		5270CDD523B9F7AB00624E86 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		5270CDD723B9FFA900624E86 /* DataProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderTests.swift; sourceTree = "<group>"; };
+		527B2C8423C0A5E90002BCAE /* ApiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientTests.swift; sourceTree = "<group>"; };
+		527B2C8623C0A9270002BCAE /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		52870F4A23B77FA200856CD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52870F4C23B77FA200856CD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52870F4E23B77FA200856CD8 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				522A383D23B8A5010026CF17 /* TaskManagerTests.swift */,
+				527B2C8423C0A5E90002BCAE /* ApiClientTests.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				522A383F23B8A59D0026CF17 /* TaskManager.swift */,
+				527B2C8623C0A9270002BCAE /* APIClient.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -364,6 +370,7 @@
 				525C853E23BCCE5600641E71 /* TaskCellTests.swift in Sources */,
 				52459E2F23BD1D5E005C70DB /* NewTaskViewControllerTests.swift in Sources */,
 				5270CDD823B9FFA900624E86 /* DataProviderTests.swift in Sources */,
+				527B2C8523C0A5E90002BCAE /* ApiClientTests.swift in Sources */,
 				522A383E23B8A5010026CF17 /* TaskManagerTests.swift in Sources */,
 				5257231A23B8D60200ACE8CA /* TaskListViewControllerTests.swift in Sources */,
 				52870F6223B77FA400856CD8 /* ToDoAppTests.swift in Sources */,
@@ -388,6 +395,7 @@
 				52870F9323B78F3100856CD8 /* Task.swift in Sources */,
 				52870F8223B7840100856CD8 /* TaskListViewController.swift in Sources */,
 				5270CDD623B9F7AB00624E86 /* DataProvider.swift in Sources */,
+				527B2C8723C0A9270002BCAE /* APIClient.swift in Sources */,
 				522AF40D23BB77EA001AEB22 /* TaskCell.swift in Sources */,
 				52459E3123BD1FE4005C70DB /* NewTaskViewController.swift in Sources */,
 				5298D5DC23B7C0730048FBCD /* Location.swift in Sources */,
