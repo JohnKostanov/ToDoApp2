@@ -134,6 +134,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		527532A423C28CAD002C9AF6 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				52870F6123B77FA400856CD8 /* ToDoAppTests.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
 		527B2C8823C0CE210002BCAE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,7 +191,7 @@
 				525C853C23BCCE2500641E71 /* View */,
 				5257231823B8D5AE00ACE8CA /* Controller */,
 				522A383C23B8A4A90026CF17 /* Manager */,
-				52870F6123B77FA400856CD8 /* ToDoAppTests.swift */,
+				527532A423C28CAD002C9AF6 /* Supporting files */,
 				52870F6323B77FA400856CD8 /* Info.plist */,
 				52870F9123B78D3800856CD8 /* Model */,
 			);
