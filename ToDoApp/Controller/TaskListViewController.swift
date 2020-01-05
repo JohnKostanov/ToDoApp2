@@ -12,6 +12,8 @@ class TaskListViewController: UIViewController {
     
     @IBOutlet var tableView: UITableView!
     @IBOutlet var dataProvider: DataProvider!
+    @IBAction func addNewTask(_ sender: UIBarButtonItem) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
