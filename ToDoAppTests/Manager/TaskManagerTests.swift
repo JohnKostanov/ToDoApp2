@@ -14,11 +14,14 @@ class TaskManagerTests: XCTestCase {
     var sut: TaskManager! // sut - sistem under test
 
     override func setUp() {
+        super.setUp()
         sut = TaskManager()
     }
 
     override func tearDown() {
-       sut = nil
+        super.tearDown()
+        sut = nil
+        
     }
     
     func testInitTaskManagerWithZeroTasks() {
